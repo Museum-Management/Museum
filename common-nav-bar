@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>LifeStyle Store</title>
+        <link rel="icon" href="57629.svg" stylesheet="image/svg">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">  
+            <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">The Artifact</a>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav navbar-right" type="none">
+                    <li class="nav-item">                        
+                        <a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span>link1</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="glyphicon glyphicon-log-in"></span> Link2</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+  </body>
+  </html>
