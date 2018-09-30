@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--
+Take a tour page of the museum-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>The Artefact|Take a tour</title>
+        <style>
+            .heading{
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+            li{
+                padding:2px 2px 2px 2px;
+                margin: 15px 20px 7px 0px;        
+            }
+            .caption{
+                font-family: cursive;
+                font-weight: bold;
+                font-size: 20px;
+                text-decoration: none;
+                color: black;
+               /* text-decoration: underline;*/
+            }
+            .zoom {
+                padding:10px;
+                transition: transform .2s;
+                width: 200px;
+                height: 200px;
+                margin: 0 auto;
+            }
+
+            .zoom:hover {
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1); 
+            }
+
+            .img-desc{
+                font-size: 16px;
+                font-family: sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="continer-fluid">
+        <nav class="navbar navbar-inverse navbar-fixed-top">  
+            <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">The Artefact</a>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav navbar-right" type="none">
+                    <li class="nav-item">                        
+                        <a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span>link1</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="glyphicon glyphicon-log-in"></span> Link2</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        </div>
+        <div class="container" style="padding-top: 80px">
+        <h1 class="heading">The Artefact Collection!</h1>
+        <br>
+        <p><i>Through the combined efforts of generations of curators, researchers, and collectors, our collection
+                    has grown to represent more than 5,000 years of art from across the globe—from the first cities of
+                    the ancient world to the works of our time.</i></p>
+                    <br><br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="#">
+                    <img class="img-thumbnail zoom" src="copper.jpg" alt="Antiques" style="width:100%; height:300px">
+                    <br>
+                    <p class="caption">Versatile repository of Antiques!</p>
+                </a>
+                <p class="img-desc">Delve into our unique repository of Antiques that manifest proficiency and expertise of our Ancestors in the field of fine-arts.</p>
+            </div>
+            <div class="col-sm-4">
+                <a href="#">
+                    <img class="img-thumbnail zoom" src="buddha.jpg" alt="Archeology" style="width:100%; height:300px">
+                    <p class="caption">Archaeology-Store at the Artefact!</p>
+                </a>
+                <p class="img-desc">Archaeological remains show us the lifestyle of people, customs and cultures practiced over time, along with changes & causes of changes. Welcome to Artefact-Archaeology!</p>
+            </div>
+            <div class="col-sm-4">
+                <a href="#">
+                    <img src="culture.jpg" alt="Indian-culture" class="img-thumbnail zoom" style="height:300px; width:100%;">
+                    <p class="caption">The Prestigious Indian Culture!</p>
+                </a>
+                <p class="img-desc">There is a harmonious blend of art, religion and philosophy in the Indian culture. They are so beautifully interwoven in the fabric of Indian way of life and thought that they are inseparable.</p>
+            </div>
+                        
+        </div>
+        <br><br><br><br>
+        
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="#">
+                    <img class="img-thumbnail zoom" src="art-collection4.PNG" alt="art-collections" style="width:100%; height:300px">
+                    
+                    <p class="caption">Art at the Artefact!</p>
+                </a>
+                <p class="img-desc">Explore one of the largest and most comprehensive collections of Asian art, art objects in our country. Dive head-first to appreciate the finesse.</p>
+            </div>            
+            <div class="col-sm-4">
+                <a href="#">
+                    <img src="manuscripts.PNG" alt="art-collections" class="img-thumbnail zoom" style="width:100%; height:300px">
+                    <p class="caption">Preserved Manuscripts!</p>
+                </a>
+                <p class="img-desc">Several volumes of manuscripts of various texts from Buddhist texts to sanskritik ones are a part our collection!.</p>
+            </div>
+            <div class="col-sm-4">
+                <a href="#">
+                    <img src="heritage.jpg" alt="The Rich Indian-Heritage" class="img-thumbnail zoom" style="height:300px; width:100%;">
+                    <p class="caption">The Rich Indian-Heritage!</p>
+                </a>
+                <p class="img-desc">India is blessed with a vast & rich heritage. One has to only see the various architectural & cultural marvels that dot the geographical expanse of India to glimpse the richness of our heritage.</p>
+            </div>            
+        </div>
+        <br><br><br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="#">
+                    <img src="contemporary.png" alt="art-collections" class="img-thumbnail zoom" style="height:300px; width:100%;">
+                    <p class="caption">The Contemporary Caboodle!</p>
+                </a>
+                <p class="img-desc">The 21st Century World has been experiencing fundamental changes in life-style, technology, politics and economy.So, presenting you Modern-Times</p>
+            </div>
+            <div class="col-sm-4">
+                <a href="#">
+                    <img src="Jaipur(probably)-1891-2.jpg" alt="prominent-people" class="img-thumbnail zoom" style="height:300px; width:100%;">
+                    <p class="caption">Influential Individuals of All-time!</p>
+                </a>
+                <p class="img-desc"> Certainly, some of the greatest minds and kindest hearts of all time deserve the greatest honor.Featuring such historical figures, interesting humans and impactful people in the society.</p>
+            </div>
+            <div class="col-sm-4">
+                <a href="#">
+                    <img class="img-thumbnail zoom" src="rarephoto1.png" alt="rare-photos-of-British-India" style="width:100%; height:300px"> 
+                    <p class="caption">A glimpse of Rare photos!</p>
+                </a>
+                <p class="img-desc">Here's a prodigious collection of rare images depicting Colonial rule in India(1858-1947) and much more.</p>
+            </div>
+            
+        </div>
+        <br><br><br>
+        <?php
+            
+        ?>
+        <div class="footer continer-fluid" style="background-color: #101010;">
+                <p style="color: whitesmoke;text-align: center;">Copyright © <i>The Artefact</i>. All Rights Reserved and Contact Us: +91 90000 00000</p>
+        </div>
+    </body>
+</html>
