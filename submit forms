@@ -1,0 +1,28 @@
+<?php
+$host="localhost";
+$dbname="museumdb";
+$user="museum";
+$passwd="museum";
+$con=mysqli_connect($host,$user,$passwd,$dbname)
+        or die(mysql_error());
+$id=$_POST['id'];
+$fname=$_POST['fname'];
+$lname=$_POST['lname'];
+$age=$_POST['age'];
+$gender=$_POST['gender'];
+$contact=$_POST['contact'];
+$address=$_POST['address'];
+$sql="INSERT INTO empentry(id , fname , lname , age , gender , contact , address) values('$id','$fname','$lname','$age','$gender','$contact','$address')";
+if(mysqli_query($con,$sql)){
+    echo "Succesful";
+}
+else{
+    echo "Again";
+}
+
+?>
+
+
+
+
+
